@@ -5,7 +5,9 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.0",
     "body-parser": "^1.19.0",
+    "bulma": "^0.9.1",
     "cors": "^2.8.5",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -16,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "test:server": "mocha server.test.js",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prettify": "yarn prettier --write ."
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -35,6 +38,7 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.0.1"
+    "mocha": "^8.0.1",
+    "prettier": "2.1.2"
   }
 }
